@@ -6,13 +6,16 @@
 
 body {
   font-family: "Segoe UI", sans-serif;
-  background: linear-gradient(to right, #ece9e6, #ffffff);
+background: linear-gradient(317deg, rgba(63, 103, 234, 1) 0%, rgba(76, 153, 200, 1) 50%, rgba(72, 65, 160, 1) 100%);
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+h1{
+  color: #fff !important;
+}
 .main-container {
   width: 100%;
   max-width: 700px;
@@ -20,9 +23,9 @@ body {
 }
 
 .quiz-card {
-  background: #fff;
+  /* background: #fff; */
   border-radius: 15px;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
   padding: 30px 40px;
   transition: 0.3s ease;
 }
@@ -35,7 +38,7 @@ body {
 
 #timer {
   font-weight: bold;
-  color: #27ae60;
+  color: red;
   font-size: 18px;
   text-align: center;
   margin-bottom: 25px;
@@ -51,10 +54,11 @@ body {
   display: flex;
   flex-direction: column;
   gap: 15px;
+  font-weight: bold !important;
 }
 
 .option {
-  background: #f5f5f5;
+  background:#BBBEC5;
   padding: 12px 15px;
   border-radius: 8px;
   border: 2px solid transparent;
@@ -63,7 +67,7 @@ body {
   transition: 0.3s;
   cursor: pointer;
   font-size: 16px;
-  color: #333;
+  color: #fff;
 }
 
 .option:hover {
@@ -80,7 +84,7 @@ body {
   width: 100%;
   margin-top: 25px;
   padding: 12px;
-  background-color: #3498db;
+  background-color: black;
   border: none;
   color: white;
   font-size: 17px;
